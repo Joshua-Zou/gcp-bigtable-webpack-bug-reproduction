@@ -31,3 +31,6 @@ Error: ENOENT: no such file or directory, open '/workspaces/protos/google/bigtab
 3. In this directory, run `npm run build`
 4. In this directory, run `npm run start`
 5. Observe the bug. You can also go into `package.json` and change the version of Bigtable from `6.2.0` to `6.1.0`, reinstall dependencies, rebuild, and start the program again. This will not cause the error to be thrown.  
+
+## Additional Notes:
+- Maybe related to this? https://github.com/googleapis/google-cloud-node/issues/2936
